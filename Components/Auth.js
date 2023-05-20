@@ -18,7 +18,7 @@ const Auth = ({ setTab }) => {
   };
 
   return (
-    <div className=" border rounded-xl bg-slate-500 py-[150px] lg:w-[500px] w-auto rounded border-black p-5 flex flex-col">
+    <div className=" border rounded-xl bg-slate-500 py-[150px] lg:w-[500px] w-auto  border-black p-5 flex flex-col">
       <p className=" text-2xl text-center my-4">Sign Up Form</p>
       <input
         className=" m-2 border mx-5 border-black p-2 rounded"
@@ -48,7 +48,7 @@ const Auth = ({ setTab }) => {
         login?
       </button>
       </p>
-      {/* <p>the login user is:{userLogin}</p> */}
+      
     </div>
   );
 };
