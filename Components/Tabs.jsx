@@ -9,9 +9,9 @@ const Tabs = () => {
     if(tab===0) return <Auth setTab={setTab}/>
     if(tab===1) return <SignIn setTab={setTab}/>
 
-  return (
+  return 
     null
-  )
+  
 }
 
 export default Tabs

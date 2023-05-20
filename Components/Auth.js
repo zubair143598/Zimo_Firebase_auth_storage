@@ -20,24 +20,28 @@ const Auth = ({ setTab }) => {
   return (
     <div className=" border rounded-xl bg-slate-500 py-[150px] lg:w-[500px] w-auto  border-black p-5 flex flex-col">
       <p className=" text-2xl text-center my-4">Sign Up Form</p>
+      <form>
+        
+      
       <input
-        className=" m-2 border mx-5 border-black p-2 rounded"
+        className=" m-2 w-[90%] border mx-5 border-black p-2 rounded"
         type="email"
         placeholder="email"
         onChange={(e) => setEmail(e.target.value)}
       />
       <input
-        className=" m-2 border mx-5 my-4 border-black p-2 rounded"
+        className=" m-2 w-[90%] border mx-5 my-4 border-black p-2 rounded"
         type="password"
         onChange={(e) => setPassword(e.target.value)}
         placeholder="password"
       />
+      </form>
       <button
         className=" border mx-5 border-black p-2 px-4 rounded bg-orange-400"
         type=""
         onClick={signUp}
       >
-        Sign In
+        Sign Up
       </button>
       <p className="mx-5 mt-5 text-center"> if you are already register
       <button
